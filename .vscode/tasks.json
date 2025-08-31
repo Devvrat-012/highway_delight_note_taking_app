@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start Development Server",
+			"type": "shell",
+			"command": "npm run dev",
+			"isBackground": true,
+			"options": { "cwd": "${workspaceFolder}" },
+			"presentation": { "reveal": "always", "panel": "shared" },
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
